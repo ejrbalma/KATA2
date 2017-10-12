@@ -6,7 +6,6 @@ public class CalculaHistogram {
         
         Histogram <T> histo = new Histogram<> ();
         for (T key : vector) {
-            // Añadimos un mensaje ...
             histo.increment(key);
         }
         return histo;
