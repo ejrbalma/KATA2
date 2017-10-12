@@ -21,6 +21,7 @@ public class NewKata2 {
         // String[] vector = {"Ana", "Juan", "Elena", "Elena", "Juan", "Ana", "Pedro", "Ana"};
        
         // Comentario 1
+        // Comentario 4
         
         Histogram <Integer> histogram = CalculaHistogram.computeHistogram(vector);
         
