@@ -18,7 +18,7 @@ public class NewKata2 {
      */
     public static void main(String[] args) {
         // Integer [] vector = {1, 3, 5, 7, 9, 1, 5, 4, 3, 9,100,-4};
-        String[] vector = {"Ana", "Juan", "Elena", "Elena", "Juan", "Ana", "Pedro"};
+        String[] vector = {"Ana", "Juan", "Elena", "Elena", "Juan", "Ana", "Pedro", "Ana"};
        
         Histogram <String> histogram = CalculaHistogram.computeHistogram(vector);
         
