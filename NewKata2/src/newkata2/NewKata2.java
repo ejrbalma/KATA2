@@ -22,6 +22,8 @@ public class NewKata2 {
        
         Histogram <Integer> histogram = CalculaHistogram.computeHistogram(vector);
         
+        // Comentario 2 
+        
         for (Integer key : histogram.keySet()) {
             System.out.println(key + " --> " + histogram.get(key));
         }
