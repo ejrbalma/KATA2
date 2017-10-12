@@ -23,6 +23,7 @@ public class NewKata2 {
         // Comentario 1
         // Comentario 4
         // Comentario 3
+
         
         Histogram <Integer> histogram = CalculaHistogram.computeHistogram(vector);
         
