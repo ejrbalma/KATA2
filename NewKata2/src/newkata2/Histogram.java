@@ -17,12 +17,7 @@ public class Histogram<T> {
     }
     
     public Integer increment (T key){
-        
-        //if (map.containsKey(key))
-         //           return map.put(key, get(key)+1);
-         //else
-         //         return map.put(key, 1);          
-        
+                
         return map.put(key, map.containsKey(key) ? get(key)+1 : 1);
         
     }
